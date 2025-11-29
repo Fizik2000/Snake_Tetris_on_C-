@@ -1,0 +1,76 @@
+\documentclass{article}
+\begin{document}
+
+\begin{center}
+    {\large\bfseries Tetris Documentation}
+\end{center}
+
+\section*{Project Description}
+Classic Tetris implementation in C using ncurses library for school21
+
+\section*{Game Rules}
+\begin{itemize}
+\item Blocks fall from the top
+\item Player moves and rotates blocks
+\item Goal: complete horizontal lines
+\item Completed lines disappear, player gets points:
+1 line - 100 \\
+2 lines - 300 \\
+3 lines - 800 \\
+4 lines - 1500
+\item After every 600 points, the game level increases, which increases the speed of falling figures. The maximum level is -10
+\item Game ends when blocks reach the top
+\end{itemize}
+
+\section*{Controls}
+\begin{itemize}
+\item Left: left arrow
+\item Right: right arrow
+\item Down: down arrow (speed up)
+\item Rotate: up arrow
+\item Pause: P
+\end{itemize}
+
+\section*{Build and Run}
+\begin{verbatim}
+make install
+./build/tetris.o
+\end{verbatim}
+
+\newpage
+
+\begin{center}
+    {\large\bfseries Snake Documentation}
+\end{center}
+
+\section*{Project Description}
+Classic Snake implementation in C++ cli and desktop
+
+\section*{Game Rules}
+\begin{itemize}
+\item Snake moves on field
+\item Player moves snake to eat red apple
+\item Goal: score maximum apples
+\item When snake eats apple, player gets 1 point:
+\item After every 5 points, the game level increases, which increases the speed of snake. The maximum level is -10
+\item Game ends when head snake's faces with borders of field or with other parts of snake
+\end{itemize}
+
+\section*{Controls}
+\begin{itemize}
+\item Left: left arrow
+\item Right: right arrow
+\item Down: down arrow
+\item Pause: P
+\end{itemize}
+
+\section*{Build and Run}
+\begin{verbatim}
+make install
+./build/snake.o
+\end{verbatim}
+
+\section*{Author}
+Gasanov Sirazhudin (sirazhudingasanov@gmail.com)
+
+\end{document}

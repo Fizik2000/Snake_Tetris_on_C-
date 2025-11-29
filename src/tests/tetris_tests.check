@@ -1,0 +1,72 @@
+// checkmk clean_mode=1 tests.check > tests.c
+
+#include "../gui/tetris/cli/frontend.h"
+#include <check.h>
+
+
+
+
+#test test1
+ck_assert_int_eq(0, 2-2);
+int field_back[20][10];
+for (int i = 0; i < N; ++i) {
+    for (int j = 0; j < M; ++j) {
+        field_back[i][j] = 0;
+    }
+}
+
+int figure[4][4];
+
+for (int i = 1; i < 8; ++i) set_figure(figure, i);
+
+
+
+set_figure_in_field_back(field_back, figure, 5, 5);
+erase_figure_in_field_back(field_back, figure, 5, 5);
+ck_assert_int_eq(0, is_neighbors_below(field_back, figure, 5, 5));
+ck_assert_int_eq(0, is_neighbors_left(field_back, figure, 5, 5));
+ck_assert_int_eq(0, is_neighbors_right(field_back, figure, 5, 5));
+
+
+#test test3
+int field_back[20][10];
+for (int i = 0; i < N; ++i) {
+    for (int j = 0; j < M; ++j) {
+        if (i == 14) field_back[i][j] = 1;
+        else field_back[i][j] = 0;
+    }
+}
+ck_assert_int_eq(14, is_four_row_full(field_back, 17));
+ck_assert_int_eq(-1, is_four_row_full(field_back, 18));
+
+
+#test test4
+int field_back[20][10];
+for (int i = 0; i < N; ++i) {
+    for (int j = 0; j < M; ++j) {
+        if (i == 14) field_back[i][j] = 1;
+        else field_back[i][j] = 0;
+    }
+}
+set_field_back_after_full_row(field_back, 14);
+for (int i = 0; i < N; ++i) {
+    for (int j = 0; j < M; ++j) {
+        ck_assert_int_eq(0, field_back[i][j]);
+    }
+}
+
+int figure[4][4];
+int x = 5;
+for (int i = 0; i < 4; ++i) {
+    for (int j = 0; j < 4; ++j)
+        figure[i][j] = 0;
+}
+figure[0][3] = 1;
+rotate(figure);
+rotate(figure);
+rotate(figure);
+ck_assert_int_eq(1, is_rotation_possible(field_back, figure, &x, 12));
+
+
+#test test5
+ck_assert_int_eq(0, 2-2);

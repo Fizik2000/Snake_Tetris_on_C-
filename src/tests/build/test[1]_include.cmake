@@ -1,0 +1,5 @@
+if(EXISTS "/home/sirazhudin_ubuntu/projects_s21/CPP3_BrickGame_v2.0.ID_1396153-1/src/tests/build/test[1]_tests.cmake")
+  include("/home/sirazhudin_ubuntu/projects_s21/CPP3_BrickGame_v2.0.ID_1396153-1/src/tests/build/test[1]_tests.cmake")
+else()
+  add_test(test_NOT_BUILT test_NOT_BUILT)
+endif()

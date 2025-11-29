@@ -1,0 +1,3 @@
+/home/sirazhudin_ubuntu/projects_s21/CPP3_BrickGame_v2.0.ID_1396153-1/src/tests/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate.dir
+/home/sirazhudin_ubuntu/projects_s21/CPP3_BrickGame_v2.0.ID_1396153-1/src/tests/build/_deps/googletest-subbuild/CMakeFiles/edit_cache.dir
+/home/sirazhudin_ubuntu/projects_s21/CPP3_BrickGame_v2.0.ID_1396153-1/src/tests/build/_deps/googletest-subbuild/CMakeFiles/rebuild_cache.dir

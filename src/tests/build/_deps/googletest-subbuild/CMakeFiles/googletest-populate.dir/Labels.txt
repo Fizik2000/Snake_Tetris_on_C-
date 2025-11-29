@@ -1,0 +1,14 @@
+# Target labels
+ googletest-populate
+# Source files and their labels
+/home/sirazhudin_ubuntu/projects_s21/CPP3_BrickGame_v2.0.ID_1396153-1/src/tests/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate
+/home/sirazhudin_ubuntu/projects_s21/CPP3_BrickGame_v2.0.ID_1396153-1/src/tests/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate.rule
+/home/sirazhudin_ubuntu/projects_s21/CPP3_BrickGame_v2.0.ID_1396153-1/src/tests/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate-complete.rule
+/home/sirazhudin_ubuntu/projects_s21/CPP3_BrickGame_v2.0.ID_1396153-1/src/tests/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build.rule
+/home/sirazhudin_ubuntu/projects_s21/CPP3_BrickGame_v2.0.ID_1396153-1/src/tests/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure.rule
+/home/sirazhudin_ubuntu/projects_s21/CPP3_BrickGame_v2.0.ID_1396153-1/src/tests/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download.rule
+/home/sirazhudin_ubuntu/projects_s21/CPP3_BrickGame_v2.0.ID_1396153-1/src/tests/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install.rule
+/home/sirazhudin_ubuntu/projects_s21/CPP3_BrickGame_v2.0.ID_1396153-1/src/tests/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-mkdir.rule
+/home/sirazhudin_ubuntu/projects_s21/CPP3_BrickGame_v2.0.ID_1396153-1/src/tests/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch.rule
+/home/sirazhudin_ubuntu/projects_s21/CPP3_BrickGame_v2.0.ID_1396153-1/src/tests/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test.rule
+/home/sirazhudin_ubuntu/projects_s21/CPP3_BrickGame_v2.0.ID_1396153-1/src/tests/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update.rule

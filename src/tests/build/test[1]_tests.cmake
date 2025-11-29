@@ -1,0 +1,7 @@
+add_test([=[init_field_back.case1]=]  /home/sirazhudin_ubuntu/projects_s21/CPP3_BrickGame_v2.0.ID_1396153-1/src/tests/build/test [==[--gtest_filter=init_field_back.case1]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[init_field_back.case1]=]  PROPERTIES WORKING_DIRECTORY /home/sirazhudin_ubuntu/projects_s21/CPP3_BrickGame_v2.0.ID_1396153-1/src/tests/build SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[init_head_and_tail.case1]=]  /home/sirazhudin_ubuntu/projects_s21/CPP3_BrickGame_v2.0.ID_1396153-1/src/tests/build/test [==[--gtest_filter=init_head_and_tail.case1]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[init_head_and_tail.case1]=]  PROPERTIES WORKING_DIRECTORY /home/sirazhudin_ubuntu/projects_s21/CPP3_BrickGame_v2.0.ID_1396153-1/src/tests/build SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[snake_move_hangling_back.case1]=]  /home/sirazhudin_ubuntu/projects_s21/CPP3_BrickGame_v2.0.ID_1396153-1/src/tests/build/test [==[--gtest_filter=snake_move_hangling_back.case1]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[snake_move_hangling_back.case1]=]  PROPERTIES WORKING_DIRECTORY /home/sirazhudin_ubuntu/projects_s21/CPP3_BrickGame_v2.0.ID_1396153-1/src/tests/build SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+set(  test_TESTS init_field_back.case1 init_head_and_tail.case1 snake_move_hangling_back.case1)

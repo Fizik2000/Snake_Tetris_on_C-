@@ -1,0 +1,803 @@
+TN:
+SF:/home/sirazhudin_ubuntu/projects_s21/CPP3_BrickGame_v2.0.ID_1396153-1/src/brick_game/snake/init_field_back.cc
+FN:2,11,init_field_back(int (&) [][10], point&)
+FNDA:4,init_field_back(int (&) [][10], point&)
+FNF:1
+FNH:1
+DA:2,4
+DA:3,84
+DA:4,880
+DA:5,800
+DA:8,20
+DA:9,4
+DA:10,4
+DA:11,4
+LF:8
+LH:8
+end_of_record
+TN:
+SF:/home/sirazhudin_ubuntu/projects_s21/CPP3_BrickGame_v2.0.ID_1396153-1/src/brick_game/snake/init_head_and_tail.cc
+FN:3,15,init_head_and_tail(point&, point&, std::__cxx11::list<point, std::allocator<point> >&)
+FNDA:4,init_head_and_tail(point&, point&, std::__cxx11::list<point, std::allocator<point> >&)
+FNF:1
+FNH:1
+DA:3,4
+DA:4,4
+DA:5,4
+DA:8,4
+DA:9,20
+DA:10,16
+DA:11,16
+DA:13,4
+DA:14,4
+DA:15,4
+LF:10
+LH:10
+end_of_record
+TN:
+SF:/home/sirazhudin_ubuntu/projects_s21/CPP3_BrickGame_v2.0.ID_1396153-1/src/brick_game/snake/set_apple_in_field_back.cc
+FN:3,5,set_apple_in_field_back(int (&) [][10], point const&)
+FNDA:4,set_apple_in_field_back(int (&) [][10], point const&)
+FNF:1
+FNH:1
+DA:3,4
+DA:4,4
+DA:5,4
+LF:3
+LH:3
+end_of_record
+TN:
+SF:/home/sirazhudin_ubuntu/projects_s21/CPP3_BrickGame_v2.0.ID_1396153-1/src/brick_game/snake/set_apple_rand.cc
+FN:19,23,set_apple_rand(int (&) [][10], point&)
+FN:3,17,get_next(point&)
+FNDA:4,set_apple_rand(int (&) [][10], point&)
+FNDA:0,get_next(point&)
+FNF:2
+FNH:1
+DA:3,0
+DA:4,0
+DA:5,0
+DA:6,0
+DA:8,0
+DA:9,0
+DA:10,0
+DA:12,0
+DA:13,0
+DA:16,0
+DA:19,4
+DA:20,4
+DA:21,4
+DA:22,4
+DA:23,4
+LF:15
+LH:5
+end_of_record
+TN:
+SF:/home/sirazhudin_ubuntu/projects_s21/CPP3_BrickGame_v2.0.ID_1396153-1/src/brick_game/snake/snake_move_hangling_back.cc
+FN:5,34,snake_move_hangling_back(int (&) [][10], point&, point&, std::__cxx11::list<point, std::allocator<point> >&, int const&)
+FNDA:12,snake_move_hangling_back(int (&) [][10], point&, point&, std::__cxx11::list<point, std::allocator<point> >&, int const&)
+FNF:1
+FNH:1
+DA:5,12
+DA:8,12
+DA:10,12
+DA:11,12
+DA:12,2
+DA:13,10
+DA:14,2
+DA:15,8
+DA:16,2
+DA:17,6
+DA:18,6
+DA:19,12
+DA:20,12
+DA:21,12
+DA:22,0
+DA:24,12
+DA:25,12
+DA:26,12
+DA:27,12
+DA:29,12
+DA:30,12
+DA:31,12
+DA:33,12
+LF:23
+LH:22
+end_of_record
+TN:
+SF:/home/sirazhudin_ubuntu/projects_s21/CPP3_BrickGame_v2.0.ID_1396153-1/src/tests/snake_tests.cc
+FN:12,12,init_head_and_tail_case1_Test::TestBody()
+FN:12,12,init_head_and_tail_case1_Test::init_head_and_tail_case1_Test()
+FN:12,12,init_head_and_tail_case1_Test::~init_head_and_tail_case1_Test()
+FN:23,23,snake_move_hangling_back_case1_Test::TestBody()
+FN:23,23,snake_move_hangling_back_case1_Test::snake_move_hangling_back_case1_Test()
+FN:23,23,snake_move_hangling_back_case1_Test::~snake_move_hangling_back_case1_Test()
+FN:40,44,main
+FN:5,5,init_field_back_case1_Test::TestBody()
+FN:5,5,init_field_back_case1_Test::init_field_back_case1_Test()
+FN:5,5,init_field_back_case1_Test::~init_field_back_case1_Test()
+FNDA:2,init_head_and_tail_case1_Test::TestBody()
+FNDA:2,init_head_and_tail_case1_Test::init_head_and_tail_case1_Test()
+FNDA:4,init_head_and_tail_case1_Test::~init_head_and_tail_case1_Test()
+FNDA:2,snake_move_hangling_back_case1_Test::TestBody()
+FNDA:2,snake_move_hangling_back_case1_Test::snake_move_hangling_back_case1_Test()
+FNDA:4,snake_move_hangling_back_case1_Test::~snake_move_hangling_back_case1_Test()
+FNDA:4,main
+FNDA:2,init_field_back_case1_Test::TestBody()
+FNDA:2,init_field_back_case1_Test::init_field_back_case1_Test()
+FNDA:4,init_field_back_case1_Test::~init_field_back_case1_Test()
+FNF:10
+FNH:10
+DA:5,8
+DA:8,2
+DA:9,2
+DA:10,2
+DA:12,8
+DA:15,2
+DA:16,2
+DA:17,2
+DA:18,2
+DA:19,2
+DA:20,2
+DA:21,2
+DA:23,8
+DA:26,2
+DA:27,2
+DA:28,2
+DA:29,2
+DA:30,2
+DA:31,2
+DA:32,2
+DA:33,2
+DA:34,2
+DA:36,2
+DA:37,2
+DA:38,2
+DA:40,4
+DA:41,4
+DA:43,4
+LF:28
+LH:28
+end_of_record
+TN:
+SF:/usr/include/c++/13/bits/alloc_traits.h
+FNF:0
+FNH:0
+DA:482,28
+DA:517,28
+DA:538,28
+DA:542,28
+DA:562,28
+LF:5
+LH:5
+end_of_record
+TN:
+SF:/usr/include/c++/13/bits/allocated_ptr.h
+FN:53,55,std::__allocated_ptr<std::allocator<std::_List_node<point> > >::__allocated_ptr(std::allocator<std::_List_node<point> >&, std::_List_node<point>*)
+FN:71,75,std::__allocated_ptr<std::allocator<std::_List_node<point> > >::~__allocated_ptr()
+FN:79,83,std::__allocated_ptr<std::allocator<std::_List_node<point> > >::operator=(decltype(nullptr))
+FNDA:28,std::__allocated_ptr<std::allocator<std::_List_node<point> > >::__allocated_ptr(std::allocator<std::_List_node<point> >&, std::_List_node<point>*)
+FNDA:28,std::__allocated_ptr<std::allocator<std::_List_node<point> > >::~__allocated_ptr()
+FNDA:28,std::__allocated_ptr<std::allocator<std::_List_node<point> > >::operator=(decltype(nullptr))
+FNF:3
+FNH:3
+DA:53,28
+DA:54,28
+DA:55,28
+DA:71,28
+DA:73,28
+DA:74,0
+DA:75,28
+DA:79,28
+DA:81,28
+DA:82,28
+LF:10
+LH:9
+end_of_record
+TN:
+SF:/usr/include/c++/13/bits/allocator.h
+FNF:0
+FNH:0
+DA:163,4
+LF:1
+LH:1
+end_of_record
+TN:
+SF:/usr/include/c++/13/bits/basic_string.h
+FN:641,650,std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string<std::allocator<char> >(char const*, std::allocator<char> const&)
+FNDA:12,std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string<std::allocator<char> >(char const*, std::allocator<char> const&)
+FNF:1
+FNH:1
+DA:355,0
+DA:641,12
+DA:642,12
+DA:645,12
+DA:646,0
+DA:648,12
+DA:649,12
+DA:650,12
+LF:8
+LH:6
+end_of_record
+TN:
+SF:/usr/include/c++/13/bits/basic_string.tcc
+FN:221,252,void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*, std::forward_iterator_tag)
+FN:221,252,void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag)
+FN:239,239,std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*, std::forward_iterator_tag)::_Guard::_Guard(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*)
+FN:239,239,std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag)::_Guard::_Guard(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*)
+FN:242,242,std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*, std::forward_iterator_tag)::_Guard::~_Guard()
+FN:242,242,std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag)::_Guard::~_Guard()
+FNDA:12,void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*, std::forward_iterator_tag)
+FNDA:0,void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag)
+FNDA:12,std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*, std::forward_iterator_tag)::_Guard::_Guard(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*)
+FNDA:0,std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag)::_Guard::_Guard(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*)
+FNDA:12,std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*, std::forward_iterator_tag)::_Guard::~_Guard()
+FNDA:0,std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag)::_Guard::~_Guard()
+FNF:6
+FNH:3
+DA:221,12
+DA:225,12
+DA:227,12
+DA:229,12
+DA:230,12
+DA:239,12
+DA:242,12
+DA:245,12
+DA:247,12
+DA:249,12
+DA:251,12
+DA:252,12
+LF:12
+LH:12
+end_of_record
+TN:
+SF:/usr/include/c++/13/bits/char_traits.h
+FN:136,137,__gnu_cxx::char_traits<char>::eq(char const&, char const&)
+FN:199,206,__gnu_cxx::char_traits<char>::length(char const*)
+FN:393,400,std::char_traits<char>::length(char const*)
+FNDA:0,__gnu_cxx::char_traits<char>::eq(char const&, char const&)
+FNDA:0,__gnu_cxx::char_traits<char>::length(char const*)
+FNDA:12,std::char_traits<char>::length(char const*)
+FNF:3
+FNH:1
+DA:136,0
+DA:137,0
+DA:199,0
+DA:202,0
+DA:203,0
+DA:204,0
+DA:205,0
+DA:393,12
+DA:396,12
+DA:397,0
+DA:399,12
+LF:11
+LH:3
+end_of_record
+TN:
+SF:/usr/include/c++/13/bits/list.tcc
+FN:66,83,std::__cxx11::_List_base<point, std::allocator<point> >::_M_clear()
+FNDA:4,std::__cxx11::_List_base<point, std::allocator<point> >::_M_clear()
+FNF:1
+FNH:1
+DA:66,4
+DA:70,4
+DA:71,16
+DA:73,12
+DA:74,12
+DA:75,12
+DA:77,12
+DA:81,12
+DA:83,4
+LF:9
+LH:9
+end_of_record
+TN:
+SF:/usr/include/c++/13/bits/move.h
+FN:51,52,std::allocator<std::_List_node<point> >* std::__addressof<std::allocator<std::_List_node<point> > >(std::allocator<std::_List_node<point> >&)
+FN:70,71,point const& std::forward<point const&>(std::remove_reference<point const&>::type&)
+FN:97,98,std::remove_reference<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*&>::type&& std::move<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*&)
+FN:97,98,std::remove_reference<std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >*&>::type&& std::move<std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >*&>(std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >*&)
+FN:97,98,std::remove_reference<std::allocator<char>&>::type&& std::move<std::allocator<char>&>(std::allocator<char>&)
+FNDA:28,std::allocator<std::_List_node<point> >* std::__addressof<std::allocator<std::_List_node<point> > >(std::allocator<std::_List_node<point> >&)
+FNDA:112,point const& std::forward<point const&>(std::remove_reference<point const&>::type&)
+FNDA:0,std::remove_reference<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*&>::type&& std::move<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*&)
+FNDA:0,std::remove_reference<std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >*&>::type&& std::move<std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >*&>(std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >*&)
+FNDA:0,std::remove_reference<std::allocator<char>&>::type&& std::move<std::allocator<char>&>(std::allocator<char>&)
+FNF:5
+FNH:2
+DA:51,28
+DA:52,28
+DA:70,112
+DA:71,112
+DA:97,0
+DA:98,0
+LF:6
+LH:4
+end_of_record
+TN:
+SF:/usr/include/c++/13/bits/new_allocator.h
+FN:104,104,std::__new_allocator<char>::~__new_allocator()
+FN:104,104,std::__new_allocator<std::_List_node<point> >::~__new_allocator()
+FN:126,152,std::__new_allocator<std::_List_node<point> >::allocate(unsigned long, void const*)
+FN:156,173,std::__new_allocator<std::_List_node<point> >::deallocate(std::_List_node<point>*, unsigned long)
+FNDA:12,std::__new_allocator<char>::~__new_allocator()
+FNDA:4,std::__new_allocator<std::_List_node<point> >::~__new_allocator()
+FNDA:28,std::__new_allocator<std::_List_node<point> >::allocate(unsigned long, void const*)
+FNDA:28,std::__new_allocator<std::_List_node<point> >::deallocate(std::_List_node<point>*, unsigned long)
+FNF:4
+FNH:4
+DA:88,4
+DA:104,16
+DA:126,28
+DA:134,28
+DA:138,0
+DA:139,0
+DA:140,0
+DA:151,28
+DA:156,28
+DA:172,28
+DA:191,28
+DA:198,28
+DA:233,28
+LF:13
+LH:10
+end_of_record
+TN:
+SF:/usr/include/c++/13/bits/stl_iterator_base_funcs.h
+FNF:0
+FNH:0
+DA:106,12
+DA:151,24
+DA:152,24
+LF:3
+LH:3
+end_of_record
+TN:
+SF:/usr/include/c++/13/bits/stl_iterator_base_types.h
+FNF:0
+FNH:0
+DA:240,12
+LF:1
+LH:1
+end_of_record
+TN:
+SF:/usr/include/c++/13/bits/stl_list.h
+FN:1022,1023,std::__cxx11::list<point, std::allocator<point> >::begin()
+FN:1042,1043,std::__cxx11::list<point, std::allocator<point> >::end()
+FN:110,111,std::__detail::_List_node_header::_List_node_header()
+FN:1205,1206,std::__cxx11::list<point, std::allocator<point> >::front()
+FN:1255,1256,std::__cxx11::list<point, std::allocator<point> >::push_front(point const&)
+FN:1291,1292,std::__cxx11::list<point, std::allocator<point> >::pop_front()
+FN:1305,1306,std::__cxx11::list<point, std::allocator<point> >::push_back(point const&)
+FN:150,156,std::__detail::_List_node_header::_M_init()
+FN:2003,2008,void std::__cxx11::list<point, std::allocator<point> >::_M_insert<point const&>(std::_List_iterator<point>, point const&)
+FN:2013,2025,std::__cxx11::list<point, std::allocator<point> >::_M_erase(std::_List_iterator<point>)
+FN:238,238,std::_List_node<point>::_M_valptr()
+FN:268,269,std::_List_iterator<point>::_List_iterator(std::__detail::_List_node_base*)
+FN:278,279,std::_List_iterator<point>::operator*() const
+FN:455,458,std::__cxx11::_List_base<point, std::allocator<point> >::_List_impl::_List_impl()
+FN:484,484,std::__cxx11::_List_base<point, std::allocator<point> >::_M_inc_size(unsigned long)
+FN:486,486,std::__cxx11::_List_base<point, std::allocator<point> >::_M_dec_size(unsigned long)
+FN:517,518,std::__cxx11::_List_base<point, std::allocator<point> >::_M_get_node()
+FN:521,522,std::__cxx11::_List_base<point, std::allocator<point> >::_M_put_node(std::_List_node<point>*)
+FN:528,529,std::__cxx11::_List_base<point, std::allocator<point> >::_M_get_Node_allocator()
+FN:536,536,std::__cxx11::_List_base<point, std::allocator<point> >::_List_base()
+FN:574,575,std::__cxx11::_List_base<point, std::allocator<point> >::~_List_base()
+FN:708,717,std::_List_node<point>* std::__cxx11::list<point, std::allocator<point> >::_M_create_node<point const&>(point const&)
+FN:749,749,std::__cxx11::list<point, std::allocator<point> >::list()
+FN:903,903,std::__cxx11::list<point, std::allocator<point> >::~list()
+FNDA:48,std::__cxx11::list<point, std::allocator<point> >::begin()
+FNDA:12,std::__cxx11::list<point, std::allocator<point> >::end()
+FNDA:4,std::__detail::_List_node_header::_List_node_header()
+FNDA:16,std::__cxx11::list<point, std::allocator<point> >::front()
+FNDA:16,std::__cxx11::list<point, std::allocator<point> >::push_front(point const&)
+FNDA:16,std::__cxx11::list<point, std::allocator<point> >::pop_front()
+FNDA:12,std::__cxx11::list<point, std::allocator<point> >::push_back(point const&)
+FNDA:4,std::__detail::_List_node_header::_M_init()
+FNDA:28,void std::__cxx11::list<point, std::allocator<point> >::_M_insert<point const&>(std::_List_iterator<point>, point const&)
+FNDA:16,std::__cxx11::list<point, std::allocator<point> >::_M_erase(std::_List_iterator<point>)
+FNDA:72,std::_List_node<point>::_M_valptr()
+FNDA:60,std::_List_iterator<point>::_List_iterator(std::__detail::_List_node_base*)
+FNDA:16,std::_List_iterator<point>::operator*() const
+FNDA:4,std::__cxx11::_List_base<point, std::allocator<point> >::_List_impl::_List_impl()
+FNDA:28,std::__cxx11::_List_base<point, std::allocator<point> >::_M_inc_size(unsigned long)
+FNDA:16,std::__cxx11::_List_base<point, std::allocator<point> >::_M_dec_size(unsigned long)
+FNDA:28,std::__cxx11::_List_base<point, std::allocator<point> >::_M_get_node()
+FNDA:28,std::__cxx11::_List_base<point, std::allocator<point> >::_M_put_node(std::_List_node<point>*)
+FNDA:56,std::__cxx11::_List_base<point, std::allocator<point> >::_M_get_Node_allocator()
+FNDA:4,std::__cxx11::_List_base<point, std::allocator<point> >::_List_base()
+FNDA:4,std::__cxx11::_List_base<point, std::allocator<point> >::~_List_base()
+FNDA:28,std::_List_node<point>* std::__cxx11::list<point, std::allocator<point> >::_M_create_node<point const&>(point const&)
+FNDA:4,std::__cxx11::list<point, std::allocator<point> >::list()
+FNDA:4,std::__cxx11::list<point, std::allocator<point> >::~list()
+FNF:24
+FNH:24
+DA:110,4
+DA:111,4
+DA:150,4
+DA:152,4
+DA:154,4
+DA:156,4
+DA:238,72
+DA:268,60
+DA:269,60
+DA:278,16
+DA:279,16
+DA:455,4
+DA:457,4
+DA:458,4
+DA:484,28
+DA:486,16
+DA:517,28
+DA:518,56
+DA:521,28
+DA:522,28
+DA:528,56
+DA:529,56
+DA:536,4
+DA:574,4
+DA:575,4
+DA:708,28
+DA:710,28
+DA:711,28
+DA:712,28
+DA:713,28
+DA:715,28
+DA:716,28
+DA:717,28
+DA:749,4
+DA:903,4
+DA:1022,48
+DA:1023,48
+DA:1042,12
+DA:1043,12
+DA:1205,16
+DA:1206,16
+DA:1255,16
+DA:1256,16
+DA:1291,16
+DA:1292,16
+DA:1305,12
+DA:1306,12
+DA:2003,28
+DA:2005,28
+DA:2006,28
+DA:2007,28
+DA:2008,28
+DA:2013,16
+DA:2015,16
+DA:2016,16
+DA:2017,16
+DA:2019,16
+DA:2024,16
+DA:2025,16
+LF:59
+LH:59
+end_of_record
+TN:
+SF:/usr/include/c++/13/bits/unique_ptr.h
+FN:197,197,std::__uniq_ptr_impl<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::default_delete<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_M_ptr()
+FN:197,197,std::__uniq_ptr_impl<std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >, std::default_delete<std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> > > >::_M_ptr()
+FN:199,199,std::__uniq_ptr_impl<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::default_delete<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_M_ptr() const
+FN:201,201,std::__uniq_ptr_impl<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::default_delete<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_M_deleter()
+FN:201,201,std::__uniq_ptr_impl<std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >, std::default_delete<std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> > > >::_M_deleter()
+FN:398,406,std::unique_ptr<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::default_delete<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::~unique_ptr()
+FN:398,406,std::unique_ptr<std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >, std::default_delete<std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> > > >::~unique_ptr()
+FN:460,464,std::unique_ptr<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::default_delete<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::operator->() const
+FN:469,470,std::unique_ptr<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::default_delete<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::get() const
+FN:475,476,std::unique_ptr<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::default_delete<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::get_deleter()
+FN:475,476,std::unique_ptr<std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >, std::default_delete<std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> > > >::get_deleter()
+FN:486,487,std::unique_ptr<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::default_delete<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::operator bool() const
+FN:861,862,bool std::operator!=<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::default_delete<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >(std::unique_ptr<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::default_delete<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&, decltype(nullptr))
+FN:93,100,std::default_delete<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::operator()(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) const
+FN:93,100,std::default_delete<std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> > >::operator()(std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >*) const
+FNDA:14,std::__uniq_ptr_impl<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::default_delete<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_M_ptr()
+FNDA:0,std::__uniq_ptr_impl<std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >, std::default_delete<std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> > > >::_M_ptr()
+FNDA:0,std::__uniq_ptr_impl<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::default_delete<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_M_ptr() const
+FNDA:0,std::__uniq_ptr_impl<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::default_delete<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_M_deleter()
+FNDA:0,std::__uniq_ptr_impl<std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >, std::default_delete<std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> > > >::_M_deleter()
+FNDA:14,std::unique_ptr<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::default_delete<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::~unique_ptr()
+FNDA:0,std::unique_ptr<std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >, std::default_delete<std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> > > >::~unique_ptr()
+FNDA:0,std::unique_ptr<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::default_delete<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::operator->() const
+FNDA:0,std::unique_ptr<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::default_delete<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::get() const
+FNDA:0,std::unique_ptr<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::default_delete<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::get_deleter()
+FNDA:0,std::unique_ptr<std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >, std::default_delete<std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> > > >::get_deleter()
+FNDA:0,std::unique_ptr<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::default_delete<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::operator bool() const
+FNDA:0,bool std::operator!=<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::default_delete<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >(std::unique_ptr<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::default_delete<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&, decltype(nullptr))
+FNDA:0,std::default_delete<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::operator()(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) const
+FNDA:0,std::default_delete<std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> > >::operator()(std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >*) const
+FNF:15
+FNH:2
+DA:93,0
+DA:99,0
+DA:100,0
+DA:197,14
+DA:199,0
+DA:201,0
+DA:398,14
+DA:402,14
+DA:403,14
+DA:404,0
+DA:405,14
+DA:406,14
+DA:460,0
+DA:463,0
+DA:469,0
+DA:470,0
+DA:475,0
+DA:476,0
+DA:486,0
+DA:487,0
+DA:861,0
+DA:862,0
+LF:22
+LH:6
+end_of_record
+TN:
+SF:/usr/include/c++/13/ext/aligned_buffer.h
+FN:64,65,__gnu_cxx::__aligned_membuf<point>::_M_addr()
+FN:72,73,__gnu_cxx::__aligned_membuf<point>::_M_ptr()
+FNDA:72,__gnu_cxx::__aligned_membuf<point>::_M_addr()
+FNDA:72,__gnu_cxx::__aligned_membuf<point>::_M_ptr()
+FNF:2
+FNH:2
+DA:64,72
+DA:65,72
+DA:72,72
+DA:73,72
+LF:4
+LH:4
+end_of_record
+TN:
+SF:/usr/include/c++/13/new
+FN:174,175,operator new(unsigned long, void*)
+FNDA:28,operator new(unsigned long, void*)
+FNF:1
+FNH:1
+DA:174,28
+DA:175,28
+LF:2
+LH:2
+end_of_record
+TN:
+SF:/usr/include/c++/13/tuple
+FN:125,125,std::_Head_base<1ul, std::default_delete<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, true>::_M_head(std::_Head_base<1ul, std::default_delete<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, true>&)
+FN:125,125,std::_Head_base<1ul, std::default_delete<std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> > >, true>::_M_head(std::_Head_base<1ul, std::default_delete<std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> > >, true>&)
+FN:1787,1788,std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*& std::__get_helper<0ul, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::default_delete<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >(std::_Tuple_impl<0ul, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::default_delete<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >&)
+FN:1787,1788,std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >*& std::__get_helper<0ul, std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >*, std::default_delete<std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> > > >(std::_Tuple_impl<0ul, std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >*, std::default_delete<std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> > > >&)
+FN:1787,1788,std::default_delete<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >& std::__get_helper<1ul, std::default_delete<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >>(std::_Tuple_impl<1ul, std::default_delete<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >>&)
+FN:1787,1788,std::default_delete<std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> > >& std::__get_helper<1ul, std::default_delete<std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> > >>(std::_Tuple_impl<1ul, std::default_delete<std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> > >>&)
+FN:1792,1793,std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >* const& std::__get_helper<0ul, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::default_delete<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >(std::_Tuple_impl<0ul, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::default_delete<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&)
+FN:1803,1804,std::tuple_element<0ul, std::tuple<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::default_delete<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::type& std::get<0ul, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::default_delete<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >(std::tuple<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::default_delete<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >&)
+FN:1803,1804,std::tuple_element<0ul, std::tuple<std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >*, std::default_delete<std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> > > > >::type& std::get<0ul, std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >*, std::default_delete<std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> > > >(std::tuple<std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >*, std::default_delete<std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> > > >&)
+FN:1803,1804,std::tuple_element<1ul, std::tuple<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::default_delete<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::type& std::get<1ul, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::default_delete<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >(std::tuple<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::default_delete<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >&)
+FN:1803,1804,std::tuple_element<1ul, std::tuple<std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >*, std::default_delete<std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> > > > >::type& std::get<1ul, std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >*, std::default_delete<std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> > > >(std::tuple<std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >*, std::default_delete<std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> > > >&)
+FN:1809,1810,std::tuple_element<0ul, std::tuple<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::default_delete<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::type const& std::get<0ul, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::default_delete<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >(std::tuple<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::default_delete<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&)
+FN:234,234,std::_Head_base<0ul, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, false>::_M_head(std::_Head_base<0ul, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, false>&)
+FN:234,234,std::_Head_base<0ul, std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >*, false>::_M_head(std::_Head_base<0ul, std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >*, false>&)
+FN:237,237,std::_Head_base<0ul, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, false>::_M_head(std::_Head_base<0ul, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, false> const&)
+FN:269,269,std::_Tuple_impl<0ul, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::default_delete<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_M_head(std::_Tuple_impl<0ul, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::default_delete<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >&)
+FN:269,269,std::_Tuple_impl<0ul, std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >*, std::default_delete<std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> > > >::_M_head(std::_Tuple_impl<0ul, std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >*, std::default_delete<std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> > > >&)
+FN:272,272,std::_Tuple_impl<0ul, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::default_delete<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_M_head(std::_Tuple_impl<0ul, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::default_delete<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&)
+FN:497,497,std::_Tuple_impl<1ul, std::default_delete<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_M_head(std::_Tuple_impl<1ul, std::default_delete<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >&)
+FN:497,497,std::_Tuple_impl<1ul, std::default_delete<std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> > > >::_M_head(std::_Tuple_impl<1ul, std::default_delete<std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> > > >&)
+FNDA:0,std::_Head_base<1ul, std::default_delete<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, true>::_M_head(std::_Head_base<1ul, std::default_delete<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, true>&)
+FNDA:0,std::_Head_base<1ul, std::default_delete<std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> > >, true>::_M_head(std::_Head_base<1ul, std::default_delete<std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> > >, true>&)
+FNDA:14,std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*& std::__get_helper<0ul, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::default_delete<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >(std::_Tuple_impl<0ul, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::default_delete<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >&)
+FNDA:0,std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >*& std::__get_helper<0ul, std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >*, std::default_delete<std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> > > >(std::_Tuple_impl<0ul, std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >*, std::default_delete<std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> > > >&)
+FNDA:0,std::default_delete<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >& std::__get_helper<1ul, std::default_delete<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >>(std::_Tuple_impl<1ul, std::default_delete<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >>&)
+FNDA:0,std::default_delete<std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> > >& std::__get_helper<1ul, std::default_delete<std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> > >>(std::_Tuple_impl<1ul, std::default_delete<std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> > >>&)
+FNDA:0,std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >* const& std::__get_helper<0ul, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::default_delete<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >(std::_Tuple_impl<0ul, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::default_delete<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&)
+FNDA:14,std::tuple_element<0ul, std::tuple<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::default_delete<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::type& std::get<0ul, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::default_delete<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >(std::tuple<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::default_delete<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >&)
+FNDA:0,std::tuple_element<0ul, std::tuple<std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >*, std::default_delete<std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> > > > >::type& std::get<0ul, std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >*, std::default_delete<std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> > > >(std::tuple<std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >*, std::default_delete<std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> > > >&)
+FNDA:0,std::tuple_element<1ul, std::tuple<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::default_delete<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::type& std::get<1ul, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::default_delete<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >(std::tuple<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::default_delete<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >&)
+FNDA:0,std::tuple_element<1ul, std::tuple<std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >*, std::default_delete<std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> > > > >::type& std::get<1ul, std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >*, std::default_delete<std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> > > >(std::tuple<std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >*, std::default_delete<std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> > > >&)
+FNDA:0,std::tuple_element<0ul, std::tuple<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::default_delete<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::type const& std::get<0ul, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::default_delete<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >(std::tuple<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::default_delete<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&)
+FNDA:14,std::_Head_base<0ul, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, false>::_M_head(std::_Head_base<0ul, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, false>&)
+FNDA:0,std::_Head_base<0ul, std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >*, false>::_M_head(std::_Head_base<0ul, std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >*, false>&)
+FNDA:0,std::_Head_base<0ul, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, false>::_M_head(std::_Head_base<0ul, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, false> const&)
+FNDA:14,std::_Tuple_impl<0ul, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::default_delete<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_M_head(std::_Tuple_impl<0ul, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::default_delete<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >&)
+FNDA:0,std::_Tuple_impl<0ul, std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >*, std::default_delete<std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> > > >::_M_head(std::_Tuple_impl<0ul, std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >*, std::default_delete<std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> > > >&)
+FNDA:0,std::_Tuple_impl<0ul, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::default_delete<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_M_head(std::_Tuple_impl<0ul, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::default_delete<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&)
+FNDA:0,std::_Tuple_impl<1ul, std::default_delete<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_M_head(std::_Tuple_impl<1ul, std::default_delete<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >&)
+FNDA:0,std::_Tuple_impl<1ul, std::default_delete<std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> > > >::_M_head(std::_Tuple_impl<1ul, std::default_delete<std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> > > >&)
+FNF:20
+FNH:4
+DA:125,0
+DA:234,14
+DA:237,0
+DA:269,14
+DA:272,0
+DA:497,0
+DA:1787,14
+DA:1788,14
+DA:1792,0
+DA:1793,0
+DA:1803,14
+DA:1804,14
+DA:1809,0
+DA:1810,0
+LF:14
+LH:6
+end_of_record
+TN:
+SF:/usr/include/gtest/gtest-assertion-result.h
+FN:174,174,testing::AssertionResult::operator bool() const
+FN:183,185,testing::AssertionResult::message() const
+FN:187,187,testing::AssertionResult::failure_message() const
+FNDA:14,testing::AssertionResult::operator bool() const
+FNDA:0,testing::AssertionResult::message() const
+FNDA:0,testing::AssertionResult::failure_message() const
+FNF:3
+FNH:1
+DA:174,14
+DA:183,0
+DA:184,0
+DA:187,0
+LF:4
+LH:1
+end_of_record
+TN:
+SF:/usr/include/gtest/gtest-message.h
+FNF:0
+FNH:0
+LF:0
+LH:0
+end_of_record
+TN:
+SF:/usr/include/gtest/gtest-printers.h
+FN:1108,1113,void testing::internal::UniversalPrint<int>(int const&, std::ostream*)
+FN:1148,1152,std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > testing::PrintToString<int>(int const&)
+FN:221,226,decltype ((void)((*{parm#2})<<{parm#1})) testing::internal::internal_stream_operator_without_lexical_name_lookup::StreamPrinter::PrintValue<int, void>(int const&, std::ostream*)
+FN:326,337,void testing::internal::PrintWithFallback<int>(int const&, std::ostream*)
+FN:357,359,testing::internal::FormatForComparison<int, int>::Format[abi:cxx11](int const&)
+FN:437,440,std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > testing::internal::FormatForComparisonFailureMessage<int, int>(int const&, int const&)
+FN:464,466,void testing::internal::PrintTo<int>(int const&, std::ostream*)
+FN:799,809,testing::internal::UniversalPrinter<int>::Print(int const&, std::ostream*)
+FN:989,991,testing::internal::UniversalTersePrinter<int>::Print(int const&, std::ostream*)
+FNDA:0,void testing::internal::UniversalPrint<int>(int const&, std::ostream*)
+FNDA:0,std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > testing::PrintToString<int>(int const&)
+FNDA:0,decltype ((void)((*{parm#2})<<{parm#1})) testing::internal::internal_stream_operator_without_lexical_name_lookup::StreamPrinter::PrintValue<int, void>(int const&, std::ostream*)
+FNDA:0,void testing::internal::PrintWithFallback<int>(int const&, std::ostream*)
+FNDA:0,testing::internal::FormatForComparison<int, int>::Format[abi:cxx11](int const&)
+FNDA:0,std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > testing::internal::FormatForComparisonFailureMessage<int, int>(int const&, int const&)
+FNDA:0,void testing::internal::PrintTo<int>(int const&, std::ostream*)
+FNDA:0,testing::internal::UniversalPrinter<int>::Print(int const&, std::ostream*)
+FNDA:0,testing::internal::UniversalTersePrinter<int>::Print(int const&, std::ostream*)
+FNF:9
+FNH:0
+DA:221,0
+DA:225,0
+DA:226,0
+DA:326,0
+DA:336,0
+DA:337,0
+DA:357,0
+DA:358,0
+DA:437,0
+DA:439,0
+DA:464,0
+DA:465,0
+DA:466,0
+DA:799,0
+DA:808,0
+DA:809,0
+DA:989,0
+DA:990,0
+DA:991,0
+DA:1108,0
+DA:1112,0
+DA:1113,0
+DA:1148,0
+DA:1149,0
+DA:1150,0
+DA:1151,0
+DA:1152,0
+LF:27
+LH:0
+end_of_record
+TN:
+SF:/usr/include/gtest/gtest.h
+FN:1359,1365,testing::AssertionResult testing::internal::CmpHelperEQFailure<int, int>(char const*, char const*, int const&, int const&)
+FN:1376,1384,testing::AssertionResult testing::internal::CmpHelperEQ<int, int>(char const*, char const*, int const&, int const&)
+FN:1395,1399,testing::AssertionResult testing::internal::EqHelper::Compare<int, int, (void*)0>(char const*, char const*, int const&, int const&)
+FN:2317,2317,RUN_ALL_TESTS()
+FN:256,256,testing::Test::SetUpTestSuite()
+FN:264,264,testing::Test::TearDownTestSuite()
+FN:269,269,testing::Test::TearDownTestCase()
+FN:270,270,testing::Test::SetUpTestCase()
+FN:357,357,testing::Test::Setup()
+FNDA:0,testing::AssertionResult testing::internal::CmpHelperEQFailure<int, int>(char const*, char const*, int const&, int const&)
+FNDA:14,testing::AssertionResult testing::internal::CmpHelperEQ<int, int>(char const*, char const*, int const&, int const&)
+FNDA:14,testing::AssertionResult testing::internal::EqHelper::Compare<int, int, (void*)0>(char const*, char const*, int const&, int const&)
+FNDA:4,RUN_ALL_TESTS()
+FNDA:0,testing::Test::SetUpTestSuite()
+FNDA:0,testing::Test::TearDownTestSuite()
+FNDA:0,testing::Test::TearDownTestCase()
+FNDA:0,testing::Test::SetUpTestCase()
+FNDA:0,testing::Test::Setup()
+FNF:9
+FNH:3
+DA:256,0
+DA:264,0
+DA:269,0
+DA:270,0
+DA:357,0
+DA:1359,0
+DA:1364,0
+DA:1376,14
+DA:1379,14
+DA:1380,14
+DA:1383,0
+DA:1395,14
+DA:1398,14
+DA:2317,4
+LF:14
+LH:6
+end_of_record
+TN:
+SF:/usr/include/gtest/internal/gtest-internal.h
+FN:438,438,testing::internal::TestFactoryBase::~TestFactoryBase()
+FN:445,445,testing::internal::TestFactoryBase::TestFactoryBase()
+FN:457,457,testing::internal::TestFactoryImpl<init_field_back_case1_Test>::CreateTest()
+FN:457,457,testing::internal::TestFactoryImpl<init_head_and_tail_case1_Test>::CreateTest()
+FN:457,457,testing::internal::TestFactoryImpl<snake_move_hangling_back_case1_Test>::CreateTest()
+FN:478,479,testing::internal::CodeLocation::CodeLocation(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int)
+FN:491,494,testing::internal::GetNotDefaultOrNull(void (*)(), void (*)())
+FN:506,525,testing::internal::SuiteApiResolver<testing::Test>::GetSetUpCaseOrSuite(char const*, int)
+FN:527,546,testing::internal::SuiteApiResolver<testing::Test>::GetTearDownCaseOrSuite(char const*, int)
+FNDA:12,testing::internal::TestFactoryBase::~TestFactoryBase()
+FNDA:12,testing::internal::TestFactoryBase::TestFactoryBase()
+FNDA:2,testing::internal::TestFactoryImpl<init_field_back_case1_Test>::CreateTest()
+FNDA:2,testing::internal::TestFactoryImpl<init_head_and_tail_case1_Test>::CreateTest()
+FNDA:2,testing::internal::TestFactoryImpl<snake_move_hangling_back_case1_Test>::CreateTest()
+FNDA:12,testing::internal::CodeLocation::CodeLocation(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int)
+FNDA:48,testing::internal::GetNotDefaultOrNull(void (*)(), void (*)())
+FNDA:12,testing::internal::SuiteApiResolver<testing::Test>::GetSetUpCaseOrSuite(char const*, int)
+FNDA:12,testing::internal::SuiteApiResolver<testing::Test>::GetTearDownCaseOrSuite(char const*, int)
+FNF:9
+FNH:9
+DA:438,12
+DA:445,12
+DA:457,6
+DA:478,12
+DA:479,12
+DA:491,48
+DA:493,48
+DA:506,12
+DA:510,12
+DA:512,12
+DA:514,12
+DA:517,0
+DA:519,12
+DA:527,12
+DA:531,12
+DA:533,12
+DA:535,12
+DA:538,0
+DA:540,12
+LF:19
+LH:17
+end_of_record
+TN:
+SF:/usr/include/gtest/internal/gtest-port.h
+FN:1042,1042,testing::internal::GTestLog::GetStream()
+FNDA:0,testing::internal::GTestLog::GetStream()
+FNF:1
+FNH:0
+DA:1042,0
+LF:1
+LH:0
+end_of_record
+TN:
+SF:/usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h
+FN:540,551,std::__is_constant_evaluated()
+FNDA:12,std::__is_constant_evaluated()
+FNF:1
+FNH:1
+DA:540,12
+DA:547,12
+LF:2
+LH:2
+end_of_record
